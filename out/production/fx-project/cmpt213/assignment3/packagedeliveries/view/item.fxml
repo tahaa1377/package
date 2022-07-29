@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="287.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cmpt213.assignment3.packagedeliveries.control.Item">
+   <children>
+      <Label fx:id="pakage_title_info" layoutX="6.0" layoutY="7.0" prefHeight="17.0" prefWidth="395.0" text="Packege *">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="package_description" layoutX="6.0" layoutY="49.0" prefHeight="185.0" prefWidth="394.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_remove" layoutX="286.0" layoutY="239.0" mnemonicParsing="false" onAction="#btn_remove_function" prefHeight="24.0" prefWidth="105.0" text="Remove" />
+      <Separator layoutY="271.0" prefHeight="0.0" prefWidth="406.0" style="-fx-background-color: #000;" />
+      <CheckBox fx:id="radiobutton_delivered" layoutX="174.0" layoutY="243.0" mnemonicParsing="false" onAction="#deilverd_function" prefHeight="17.0" prefWidth="112.0" text="Deliverd ?" />
+   </children>
+</AnchorPane>

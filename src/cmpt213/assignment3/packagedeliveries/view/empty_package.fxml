@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="75.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cmpt213.assignment3.packagedeliveries.control.EmptyPackage">
+   <children>
+      <Label fx:id="no_packages_to_show" layoutX="5.0" layoutY="8.0" prefHeight="54.0" prefWidth="589.0" text="No packages to show" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

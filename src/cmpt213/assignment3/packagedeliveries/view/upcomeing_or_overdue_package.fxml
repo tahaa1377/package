@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="269.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cmpt213.assignment3.packagedeliveries.control.UpcomeingOrOverduePackage">
+   <children>
+      <Label fx:id="pakage_title_info_up" layoutX="6.0" layoutY="7.0" prefHeight="17.0" prefWidth="395.0" text="Packege *">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="package_description_up" layoutX="6.0" layoutY="49.0" prefHeight="185.0" prefWidth="394.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="-2.0" layoutY="257.0" prefHeight="0.0" prefWidth="406.0" style="-fx-background-color: #000;" />
+   </children>
+</AnchorPane>
